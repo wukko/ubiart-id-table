@@ -1,4 +1,6 @@
 #
+# https://github.com/wukko/ubiart-id-table
+#
 # UbiArt idtable.idt file generator from existing IPK bundles by https://github.com/wukko
 # Tested on PC version of Just Dance 2017.
 # This script should work for other UbiArt games that also use IDTable for file list verification, such as Just Dance 2015 - 2022 on PS4 (orbis).
@@ -7,12 +9,12 @@
 #
 # This script includes all matching files in current directory and its subdirectories when used standalone. Keep this in mind when using it.
 #
-# Credit is required when this script is used in other project to both me (https://github.com/wukko) and (https://github.com/InvoxiPlayGames).
+# Credit is required when this script is used in other project to both me (https://github.com/wukko) and https://github.com/InvoxiPlayGames.
 
 import os
 import math
 
-# modify these variables for standalone use if needed
+# Modify these variables for standalone use if needed
 out = "idtable.idt"
 bext = ".ipk"
 gfext = ".gf"
