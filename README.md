@@ -1,5 +1,5 @@
 # ubiart-id-table
-UbiArt idtable.idt file generator that lets you add new bundles to UbiArt games that use IDTable as way to verify file download completion. More often used for modding Just Dance 2017 on PC.
+UbiArt `idtable.idt` file generator that lets you add new bundles to UbiArt games that use IDTable as way to verify file download completion. More often used for modding Just Dance 2017 on PC.
 
 ## Why?
 `idtable.idt` file contains a list of bundle path hashes. UbiArt games that let you play before download is complete use this file to check file download status. If IDTable file is missing and/or corrupted, there's no way for game to verify consistency of downloaded files and the game will see bundles as "not yet finished downloading". This script lets you overwrite official IDTable to let the game load unofficial bundles.
